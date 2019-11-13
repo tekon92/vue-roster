@@ -38,19 +38,22 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <!-- <HelloWorld/> -->
+      <Roster />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+// import HelloWorld from './components/HelloWorld'
+import Roster from './components/Roster'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld
+    // HelloWorld,
+    Roster
   },
 
   data: () => ({
